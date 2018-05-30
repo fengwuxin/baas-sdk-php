@@ -1,0 +1,21 @@
+{
+    "name": "gxchain/baas",
+    "description": "gxchain baas sdk implemented in php.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "石楠",
+            "email": "932612011@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gxchain\\Baas\\": "src/Baas",
+        }
+    }
+}
