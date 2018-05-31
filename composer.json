@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gxchain\\Baas\\": "src/Baas"
+            "Gxchain\\BaaS\\": "src/BaaS"
         }
     }
 }
