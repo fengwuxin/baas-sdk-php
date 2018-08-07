@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "gxchain/common-sdk-php": "dev-master",
-        "gxchain/http-sdk-php": "dev-master"
+        "gxchain/common-sdk-php": "v1.0.1",
+        "gxchain/http-sdk-php": "v1.0.1"
     },
     "autoload": {
         "psr-4": {
