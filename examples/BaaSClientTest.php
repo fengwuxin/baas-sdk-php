@@ -1,19 +1,6 @@
-# baas-sdk-php
+<?php
 
-# Introduction
-
-This is a php library.
-If you just enjoy the BaaS service. you can go to [BaaS API](https://doc.gxb.io/gxchain/api/baas-api.html).
-
-
-
-# Storage Usage
-```
-composer require "gxchain/baas-sdk-php"
-
-```
-
-```
+require "../vendor/autoload.php";
 
 use GXChain\BaaS\BaaSClient;
 
@@ -29,7 +16,7 @@ $config = [
         'proxyAccount' => '1.2.241',
         'percent'      => 0,
         'assetId'      => '1.3.1',
-        'privateKey'   => 'XXX',
+        'privateKey'   => 'XXXXX',
     ],
 
 ];
@@ -43,12 +30,3 @@ echo $res;
 // $cid = 'Qmb3eECKK9rAJbG7BpFgGxeSFDH9nkie6XugxJJUqVQUUK';
 // $res = $obj->storeGet($cid);
 // echo $res;
-
-
-```
-
-
-
-
-
-

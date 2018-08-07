@@ -1,5 +1,5 @@
 {
-    "name": "gxchain/baas",
+    "name": "gxchain/baas-sdk-php",
     "description": "gxchain baas sdk implemented in php.",
     "type": "library",
     "license": "MIT",
@@ -10,11 +10,13 @@
         }
     ],
     "require": {
-        "php": ">=7.0.0"
+        "php": ">=7.0.0",
+        "gxchain/common-sdk-php": "dev-master",
+        "gxchain/http-sdk-php": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "Gxchain\\BaaS\\": "src/BaaS"
+            "GXChain\\BaaS\\": "src/BaaS"
         }
     }
 }
