@@ -99,7 +99,6 @@ class BaaSClient
             }
         }
         $length = strlen($str);
-        $f      = (int) ($length / 1024 * $feeKByte);
-        return $length % 1024 == 0 ? $f : $f + $feeKByte;
+        return ceil($length / 1024) * $feeKByte;
     }
 }
